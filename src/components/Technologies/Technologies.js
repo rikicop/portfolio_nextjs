@@ -19,19 +19,16 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle>Tecnologías</SectionTitle>
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Trabajo con un rango de tecnologías del desarrollo web.
+      Trabajo con un rango de tecnologías de desarrollo web.
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiencia con <br />
-            React.js
-          </ListParagraph>
+          <ListParagraph>JavaScript, React.js and Next.js</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -39,8 +36,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>BackEnd-End</ListTitle>
           <ListParagraph>
-            Experiencia con <br />
-            Node y MongoDB
+            Node y MongoDB con Express.js <br />
+            MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

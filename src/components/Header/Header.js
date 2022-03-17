@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { FaWhatsapp } from "react-icons/fa";
+//import { DiCssdeck } from "react-icons/di";
+import { GiFlyingShuriken } from "react-icons/gi";
 
 import {
   Container,
@@ -25,24 +27,24 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Porfolio</Span>
+          <GiFlyingShuriken size="3rem" /> <Span>Ricardo Otálora</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Proyectos</NavLink>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Tecnologías</NavLink>
+          <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>Bio</NavLink>
+        <Link href="#footer">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
@@ -50,11 +52,8 @@ const Header = () => (
       <SocialIcons href="https://github.com">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="https://wa.me/573209573682">
+        <FaWhatsapp size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
